@@ -36,7 +36,8 @@ namespace SmartSchool.WebAPIv3.Controllers
         {
             //pega  primeiro aluno se o id do body for igual ao do aluno
             var aluno = _context.Professores.FirstOrDefault(a => a.Id == id);
-            if (aluno == null) return BadRequest("Professor não foi encontrado"); 
+            if (aluno == null) return BadRequest("Aluno não foi encontrado"); 
+            // if (aluno == null) return BadRequest("Professor não foi encontrado");
             return Ok(aluno);
         }
 
