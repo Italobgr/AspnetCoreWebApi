@@ -21,6 +21,9 @@ namespace SmartSchool.WebAPIv3
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    // new builder
+
+                    // new client()
                 });
     }
 }
