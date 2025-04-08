@@ -17,6 +17,7 @@ namespace SmartSchool.WebAPIv3.Models
             this.Id = id;
             this.Nome = nome;
             this.ProfessorId = professorId;
+            //this.ProfessorId = professorId;
           
    
         }
