@@ -84,16 +84,21 @@ namespace SmartSchool.WebAPIv3.Migrations
                             Nome = "Pedro",
                             Sobrenome = "Alvares",
                             Telefone = "456454545"
-                        },
-                       
-                        
+                        },                 
                         new
                         {
                             Id = 8,
                             Nome = "Paulo",
                             Sobrenome = "José",
                             Telefone = "9874512"
-                        });
+                        }
+                         {
+                            Id = 9,
+                            Nome = "Pedro",
+                            Sobrenome = "Alvares",
+                            Telefone = "456454545"
+                        }  
+                    );
                 });
 
             modelBuilder.Entity("SmartSchool.WebAPIv3.Models.AlunoDiciplina", b =>
