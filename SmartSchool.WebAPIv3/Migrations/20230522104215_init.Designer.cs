@@ -85,16 +85,11 @@ namespace SmartSchool.WebAPIv3.Migrations
                             Sobrenome = "Alvares",
                             Telefone = "456454545"
                         },
-                        {
-                            Id = 8,
-                            Nome = "Pedro",
-                            Sobrenome = "Alvares",
-                            Telefone = "456454545"
-                        },
+                       
                         
                         new
                         {
-                            Id = 9,
+                            Id = 8,
                             Nome = "Paulo",
                             Sobrenome = "José",
                             Telefone = "9874512"
